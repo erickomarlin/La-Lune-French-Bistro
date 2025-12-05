@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaRegSnowflake } from "react-icons/fa";
 import "./App.css";
 import img1 from "./assets/img-display1.png";
@@ -6,8 +5,6 @@ import img2 from "./assets/img-display2.png";
 import { RiDoubleQuotesL } from "react-icons/ri";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <div id="page1">
