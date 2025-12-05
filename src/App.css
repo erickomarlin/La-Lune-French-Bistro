@@ -1,0 +1,348 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  max-width: 1025px;
+}
+
+#page1 {
+  height: 400px;
+  background-image: url(./assets/bg1.png);
+  background-size: cover;
+}
+
+h4 {
+  font-family: Retro;
+  margin-top: 40px;
+}
+
+h1 {
+  font-family: Futura, sans-serif;
+  font-size: 3rem;
+  margin-top: 100px;
+}
+
+.dine-with-us {
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: black;
+}
+
+#page2 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: #000;
+}
+
+.hours {
+  margin-bottom: 60px;
+}
+
+.weekdays,
+.weekends,
+.public-holidays {
+  margin-top: -25px;
+}
+
+#page3 {
+  height: 400px;
+  padding: 0 20px;
+}
+
+.upper,
+.lower {
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flavors-of-france {
+  font-family: Typewriter, serif;
+  font-size: 1.5rem;
+}
+
+.view-full-menu {
+  margin-top: 30px;
+  padding: 5px 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appetizers {
+  height: 35vh;
+  width: 30%;
+  max-width: 250px;
+  margin: 20px 0px;
+  border-radius: 15px;
+  background-image: url(./assets/menu1.png);
+  background-size: cover;
+  display: flex;
+}
+
+.mains {
+  height: 250px;
+  width: 30%;
+  margin: 20px 0px;
+  border-radius: 15px;
+  background-image: url(./assets/menu2.png);
+  background-size: cover;
+  display: flex;
+}
+
+.sweets {
+  height: 250px;
+  width: 30%;
+  margin: 20px 0px;
+  border-radius: 15px;
+  background-image: url(./assets/menu3.png);
+  background-size: cover;
+  display: flex;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+  margin: auto auto;
+  font-weight: bold;
+}
+
+.menu-link:hover {
+  color: black;
+}
+
+#page4 {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.image-part {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-img {
+  width: 40%;
+  height: 60%;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.right-img {
+  width: 40%;
+  height: 60%;
+  border-radius: 20px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 140px;
+}
+
+.description-part {
+  width: 50%;
+  padding: 60px 10px;
+  text-align: left;
+  color: black;
+}
+
+.french-connection {
+  font-family: Typewriter, serif;
+  font-size: 1.5rem;
+}
+
+.connection-par {
+  font-size: 0.8rem;
+}
+
+.book-now {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  padding: 5px 30px;
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.7rem;
+  height: 20px;
+}
+
+#page5 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.love-for-la-lune {
+  font-family: Typewriter, serif;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.testimoni {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.testimoni-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.testimoni-par {
+  text-align: left;
+  font-size: 0.75rem;
+  margin-top: -10px;
+
+  padding-right: 40px;
+}
+
+.testimoni-customer {
+  text-align: left;
+  font-style: italic;
+}
+
+#page6a {
+  height: 400px;
+}
+
+.line {
+  width: 200px;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.menu {
+  font-family: Avenir, sans-serif;
+}
+
+.menu-tag-line {
+  font-family: Avenir, sans-serif;
+  font-size: 0.6rem;
+  font-style: italic;
+  margin: 0 auto;
+  margin-top: -20px;
+  width: 300px;
+}
+
+.menu-title-appetizers {
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.menu-title-mains,
+.menu-title-desserts {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu-name {
+  text-align: left;
+  padding-left: 150px;
+  padding-top: 5px;
+  font-size: 0.8rem;
+}
+
+.price {
+  font-size: 0.8rem;
+}
+
+#page6b {
+  height: 400px;
+}
+
+#page6c {
+  height: 400px;
+}
+
+.menu-img {
+  height: 230px;
+  margin-top: 65px;
+  background-image: url(./assets/bg2.png);
+  background-size: cover;
+}
+
+#page7 {
+  height: 500px;
+  background-color: white;
+  color: black;
+}
+
+.see-you-soon {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.head {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.italic {
+  font-style: italic;
+  margin-top: -15px;
+}
+
+.phone-number {
+  margin-top: -15px;
+}
+
+.email {
+  margin-top: -15px;
+}
+
+#page8 {
+  height: 400px;
+  border: 1px solid white;
+  background-image: url(./assets/bg3.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.la-lune-french-bistro {
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
